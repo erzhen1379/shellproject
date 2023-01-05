@@ -14,9 +14,29 @@ date "+%d %B %Y"
 start=$(date +%s)
 echo $start
 pwd
-sleep 3
+sleep 1
 
 end=$(date +%s)
 echo $end
 difference=$(($end -$start))
 echo $difference
+
+#sleep
+echo -e Count
+ Count
+tput sc
+
+count=0
+while true 
+do 
+if [ $count -lt 40 ]
+then 
+ let count ++
+  sleep 1
+  tput rc
+  tput ed
+ echo -n $count
+ else exit 0
+ fi
+ 
+done
