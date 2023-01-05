@@ -11,4 +11,15 @@ echo "222222" >>tmp.txt
 ls + > out.txt  #日志无法输出到文件中
 ls + 2> out.txt #正常运行
 
+cmd 2>stderr.log 1>stdout.log
+cmd &>output.log
 
+cmd 2>/dev/null
+
+tree 
+
+#在cat <<EOF>log.txt与下一个EOF行之间的所有文本行都会被当做stdin数据
+cat<<EOF>log.txt
+LOG FILE HEADER
+this is a test log file
+EOF
