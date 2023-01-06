@@ -1,0 +1,6 @@
+1 zhangsan 25
+2 lisi     35
+3 wagnwu   12
+4 zhaoliu  25
+5 wuqi     28
+6 dongba   22
