@@ -1,0 +1,17 @@
+*** version1.txt	2023-01-10 17:46:16.834773655 +0800
+--- version2.txt	2023-01-10 17:46:22.962730330 +0800
+***************
+*** 1,5 ****
+  this is the original text
+  line2
+- line3
+  line4
+! happy hacking !
+\ 文件尾没有换行符
+--- 1,5 ----
+  this is the original text
+  line2
+  line4
+! happy hacking !
+! GNU is not UNIX
+\ 文件尾没有换行符
