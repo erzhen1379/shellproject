@@ -1,0 +1,12 @@
+hadoop hbase
+spark
+hadoop 
+spark hadoop
+yarn 
+
+hdfs hdfs 
+
+hive
+
+impala kudu kudu hdfs
+
