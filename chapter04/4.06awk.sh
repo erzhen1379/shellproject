@@ -13,6 +13,8 @@ echo | awk '{var1="v1";var2="v2";print var1,var2}'
 
 #
 
-cat word.txt |awk '{print $NR}'
+cat word.txt |awk '{print $NR}'   #
 echo ------------
 cat word.txt |awk '{print $NF}'
+
+print 
