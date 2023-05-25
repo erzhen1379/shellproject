@@ -1,2 +1,4 @@
 LOG FILE HEADER
 this is a test log file
+oom
+oom
